@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:black;
+}
+.container {
+    background-color: white;
+  height: 460px;
+  width: 370px;
+  border-radius:25px 100px 25px 25px;
+  /* border-radius:0px 0px 60px 84px; */
+}
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aqua;
+  border-radius: 25px 100px 0px 100px;
+  /* border-radius:0px 0px 60px 84px; */
+  padding: 25px;
+}
+.image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: rgb(112, 154, 154);
+  padding: 3px;
+  margin-bottom: 5px;
+}
+.image .profile-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  font-size: 22px;
+  font-weight: 500;
+}
+.job {
+  font-size: 15px;
+}
+.upper_center {
+  text-transform: uppercase;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  font-weight: 450;
+  cursor: pointer;
+  text-decoration:underline;
+}
+.Skills p{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.Skills{
+    margin-top: 2px;
+}
+.btn{
+    margin-top: 15px;
+    display: flex;
+    justify-content:space-evenly;
+    border-radius: 25%;
+    outline: none;
+    border: none;
+    font-weight: 500;
+}
+.social{
+    border-radius:0px 0px 72px 84px;
+    width: 370px;
+    margin: 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+    background-color: aqua;
+    align-items: center;
+}
+.social i{
+    color: white;
+}
